@@ -1,4 +1,15 @@
 .CardEpibook:hover {
     cursor: pointer;
+    animation: hover 1s linear;
+}
+
+.CardEpibookSelected {
     transform: scale(1.1);
+    background-color: lightgreen;
+}
+
+@keyframes hover {
+    100% {
+        transform: scale(1.1);
+    }
 }
